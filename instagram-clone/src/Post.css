@@ -1,0 +1,50 @@
+.post{
+    background-color: white;
+    max-width: 500px;
+    border: 1px solid lightgray;
+    margin-bottom:45px ;
+}
+
+.post_image{
+max-width: 100%;
+object-fit: contain;
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray
+}
+
+.post_name{
+    font-weight: normal;
+    padding:20px;
+}
+
+.post_header{
+    display: flex ;   /*we use flex to make avatar and name to be in same row @header */
+    align-items:center;
+    padding:20px ;
+}
+ 
+.post_avatar{
+    margin-right:10px;
+}
+.post__commentBox{
+    display: flex ;
+    margin-top: 10px;
+}
+.post__comments{
+    padding: 10px;
+}
+
+.post__input{
+    flex:1;
+    border:none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.post__button{
+    flex:0;
+    border: none;
+    color: royalblue;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+}
